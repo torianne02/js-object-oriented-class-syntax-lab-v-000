@@ -27,11 +27,6 @@ class BoardMember{
 }
 
 class Ceo extends BoardMember {
-  constructor(name, homeState) {
-    this.name = name;
-    this.homeState = homeState;
-  };
-
   hireEmployee() {
     return "Welcome aboard!";
   };
