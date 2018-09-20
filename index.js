@@ -31,4 +31,8 @@ class Ceo extends BoardMember {
     this.name = name;
     this.homeState = homeState;
   };
+
+  hireEmployee() {
+    return "Welcome aboard!";
+  };
 }
